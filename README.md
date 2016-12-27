@@ -19,3 +19,7 @@ How to Use
 Example Screenshot
 ------
 ![Alt text](http://i.imgur.com/SYmmdND.png "Unity Editor Screenshot")
+
+Example GIFs
+------
+![Alt text](http://i.imgur.com/0RRelTb.gif "Unity Editor GIF")
