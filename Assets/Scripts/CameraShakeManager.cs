@@ -94,7 +94,7 @@ public class CameraShakeManager : MonoBehaviour {
 	/// <param name="immediate">True to stop immediately this frame, false to ramp down.</param>
 	public void StopAll(bool immediate = false) {
 		foreach (var shake in m_activeShakes) {
-			shake.Finish(immediate);
+			Stop(shake);
 		}
 	}
 }
