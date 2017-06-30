@@ -73,7 +73,7 @@ public class CameraShake : MonoBehaviour {
 	/// <summary>
 	/// Initialize shake data.
 	/// </summary>
-	void Start() {
+	void Awake() {
 		m_startTime = Time.time;
 		m_seed = new Vector3(Random.Range(0.0f, kSeedRange), Random.Range(0.0f, kSeedRange), Random.Range(0.0f, kSeedRange));
 		m_loop = Duration == -1.0f ? true : false;
