@@ -1,25 +1,35 @@
-# CameraShake
-An extensible, lightweight noise-based camera shake manager for Unity.
+## CameraShakeKit ##
+###简介
+Unity的可扩展，轻量级基于噪音的相机抖动管理器。
 
-This implementation generates a concatenated camera matrix which allows for multiple camera shakes to seamlessly stack together. This also allows for easy integration with existing camera behavior scripts because it's not actually modifying the camera's transform.
+该实现生成级联的相机矩阵，其允许多个相机抖动无缝地堆叠在一起。这也允许与现有的相机行为脚本轻松集成，因为它实际上并没有修改相机的变换。
 
-It can be used for short violent shakes, subtle ambient shakes and everything in-between. All the shake properties can be quickly tuned in the inspector for fast iteration cycles.
+它可用于短暂的剧烈震动，微妙的环境震动以及其间的一切。可以在检查器中快速调整所有抖动属性，以实现快速迭代循环。
 
-### Noise Types
+高性能，零gc, 可数据配置。
+
+###特色
+
+1. 高性能，零gc, 可数据配置。
+2. 轻量级库，简易接口，容易学习并使用。
+
+### 噪波类型 
 * Sin
 * Perlin
 
-How to Use
-------
-1. Download and open the project (Unity 5.4.1).
-2. Attach a CameraShakeManager to your camera.
-3. Create a few CameraShake resources and edit the properties to your liking.
-4. Play & Stop the effects via CameraShakeManager as desired.
+###如何使用
 
-Example Screenshot
-------
+1. 建议使用unity2018的版本打开，工程创建的版本为unity 2018.3.6
+2. 将CameraShakeManager连接到相机。
+3. 创建一些CameraShake资源并根据自己的喜好编辑属性。
+4. 根据需要通过CameraShakeManager播放和停止效果。
+
+###示例截图
 ![Alt text](http://i.imgur.com/SYmmdND.png "Unity Editor Screenshot")
 
-Example GIFs
-------
+###示例gif
+
 ![Alt text](http://i.imgur.com/0RRelTb.gif "Unity Editor GIF")
+
+
+---
